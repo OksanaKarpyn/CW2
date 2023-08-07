@@ -73,3 +73,20 @@ align-items: center;
     text-transform: uppercase;
     
 }
+.modal{
+position: fixed;
+top: 0;
+left: 0px;
+bottom: 0;
+right: 0;
+background-color: #6be3ec9f;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-hidden{
+    display: none;
+}
+.modal-content{
+    background-color: #fff;
+}
